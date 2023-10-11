@@ -6,32 +6,35 @@ import {AiFillLeftCircle, AiFillRightCircle} from 'react-icons/ai'
 const Carosule = () => {
   const data = [
     {
-        project_type: "Machine Learning",
-        project_name: "House Price Prediction",
-        project_des: "this is a machine learning project of prediting the value for house.",
-        project_img: '',
-        tech_stack: ["Python", "Machine Learning", ],
-        github:"",
-        web:""
-    },
+      project_type: "Frontened",
+      project_name:  "🤡 Hulu Clone",
+      project_des: " Designed clone of a streaming platform HULU that is fully responsive for every screen size ",
+      tech_stack: ["Next.Js","TailwindCss", "Features: Server-side Rendering and Lazy-Loading"]
+      
+  },
+  {
+    project_type: "Web Development",
+    project_name:  "🎵 Music Player",
+    project_des: " Created a Music Player with functionalities like shuffle , replay",
+    tech_stack: ["Html", "Css","JavaScript"]
+},
     {
         project_type: "Machine Learning",
-        project_name: "House Price Prediction",
-        project_des: "this is a machine learning project of prediting the value for house.",
-        project_img: '',
-        tech_stack: ["Python", "Machine Learning", "Data Visualization"],
-        github:"",
-        web:""
+        project_name: "🎥Movie Recommendation",
+        project_des: "Content based Movie recommendation System that recommends movies similar to the movie user likes and analyse the sentiment on the reviews given by user for that movie  ",
+        tech_stack: ["Python", "Machine Learning","Html","Css","JavaScript" ]
+        
     },
+    
     {
         project_type: "Machine Learning",
-        project_name: "House Price Prediction",
-        project_des: "this is a machine learning project of prediting the value for house.",
-        project_img: '',
-        tech_stack: ["Python", "Machine Learning", "Data Visualization", 'anjali'],
-        github:"",
-        web:""
+        project_name:  "🏠House Price Prediction",
+        project_des: "This is a machine learning project for prediting the value for house.",
+        tech_stack: ["Python", "Machine Learning Algo : Linear Regression"]
+        
+        
     },
+    
 
   ]
 
@@ -58,9 +61,8 @@ const Carosule = () => {
       }}
     
     autoPlay>
-    {data.map((d,i)=> <Project project_type={d.project_type} project_name={d.project_name} project_des={d.project_des} project_img={d.project_img}
-    github={d.github} web={d.web}
-    tech_stack={d.tech_stack}
+    {data.map((d,i)=> <Project project_type={d.project_type} project_name={d.project_name} project_des={d.project_des} 
+    tech_stack={d.tech_stack} 
     />)}
 </Carousel>
   )

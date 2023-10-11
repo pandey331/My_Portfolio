@@ -7,6 +7,7 @@ import { About } from "../../components/About/About";
 import { Bio } from "../../components/Bio/Bio";
 import { Footer } from "../../components/Footer/Footer";
 import Carosule from "../../components/Carosule/Carosule";
+import { Contact } from "../../components/Contact/Contact";
 
 function Home() {
   const [whiteMode, setQuietMode] = useState(false);
@@ -22,6 +23,7 @@ function Home() {
       <About />
       <Bio />
       <Carosule/>
+      <Contact/>
       <Footer setMode={whiteMode}/>
     </div>
   );

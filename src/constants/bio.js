@@ -1,5 +1,17 @@
 export const BIO = [
   {
+  year: 2023,
+  title: {
+    name: "Scaler",
+    cargo: "365 days of Code",
+  },
+  description: " Working with Figma and Adobe XD",
+  details: [
+    "Design of web and mobile interfaces",
+    "Development of user interface and user experience",
+  ],
+},
+  {
     year: 2022,
     title: {
       name: "Geeks for Geeks",
@@ -18,18 +30,6 @@ export const BIO = [
     description:
       "Freelance projects with Technologies like Nextjs, Reactjs, Redux and Gatsby",
     details: ["Reactjs", "Nextjs", "Java", " SpringBoot"],
-  },
-  {
-    year: 2023,
-    title: {
-      name: "Scaler",
-      cargo: "365 days of Code",
-    },
-    description: " Working with Figma and Adobe XD",
-    details: [
-      "Design of web and mobile interfaces",
-      "Development of user interface and user experience",
-    ],
   },
  
 ];

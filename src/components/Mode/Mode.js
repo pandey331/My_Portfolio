@@ -15,16 +15,27 @@ export default function Mode({ handleModeChange, setMode }) {
         )}
       </button>
       <div className="mode-left white-text">
-        <ul>
+        <ul className="ico-txt">
           <li>
             <a href="#projects" >Works</a>
             
           </li>
           <li>
-            <a href="#about">Me</a>
+            <a href="#contact" >Contact</a>
+            
           </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a className="about-see" href="https://drive.google.com/file/d/1GOs3VBwmg4kq05PgQJLOy-nr055fEoMc/view?usp=sharing" target='_blank'>Resume </a>
+
+          </li>
+
         </ul>
+
       </div>
+      
 
     </section>
     <section className="mode__social">

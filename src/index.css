@@ -3,7 +3,7 @@
 @tailwind utilities;
 :root {
   /* Dark Mode */
-  --black-color-bg: #0d1117;
+  --black-color-bg: #2c2d2e;
   --gray-color: #161b22;
   --purple-color: #acb4fe;
   --purple-smoke-color: #cdd0f3;

@@ -22,6 +22,25 @@
   justify-content: space-evenly;
   list-style-type: none;
 }
+.about-see {
+  border: 2px solid white;
+  border-radius: 3px ;
+  /* border-bottom: 1px solid var(--purple-color); */
+  padding-bottom: 4px;
+  width:90px;
+  text-align: center;
+  padding-left: 14px;
+  transform: none;
+  font-weight: 500;
+  background-color: white;
+  color: black; 
+  
+}
+.about-see:hover{
+  transform: scale(1.1);
+  color: grey;
+
+}
 .mode__icons >li{
   cursor: pointer;
 }
@@ -53,8 +72,10 @@
 
 .mode-icon {
   color: var(--purple-smoke-color);
-  font-size: 18px;
-}
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
 
 /* Link Githuv */
 a {
@@ -62,11 +83,18 @@ a {
   align-items: center;
   color: var(--white-color);
   text-decoration: none;
+  
+
+}
+a:hover{
+  color: rgb(122, 90, 122);
+  transform: scale(1.8);
 }
 
 .link-decoration {
   position: relative;
   color: white;
+
 }
 
 .link-decoration::before,

@@ -1,5 +1,6 @@
 .container-project {
   margin-top: 8rem;
+  justify-content: center;
 }
 
 .project-header {
@@ -10,7 +11,7 @@
 
 .project-box {
   border-radius: 10px;
-  max-width: 60%;
+  max-width: 40%;
   padding: 1.5rem;
   background-color: var(--gray-color);
 }
@@ -40,10 +41,12 @@
   padding: 10px;
   border: 2px solid lightgray;
   border-radius: 10px;
+  max-width: fit-content;
 }
 
 .details-left {
-  margin: 0 2rem;
+  margin: 0 5rem;
+  align-items: center;
 
   display: flex;
   flex-direction: column;
@@ -99,7 +102,7 @@
   }
 
   .project-box {
-    max-width: 100%;
+    max-width: 50%;
   }
 
   .details-left {

@@ -6,21 +6,26 @@ export const About = () => {
     <section id="about" className="container container-about">
       <div className="about-left">
         <span className="purple-text">
-          ✋Hi, I'm Anjali Pandey{" "}
+          ✋Hi, I'm Anjali Kumari{" "}
           <span className="purple-smoke-text">- Introduction</span>{" "}
         </span>
         <p className="gray-text">
-        Committed and goal-oriented computer science graduate looking to pursue a career in the software engineering domain. Possess excellent knowledge in Machine Learnig,C++, Web Technology(HTML, CSS, Javascript, Reactjs). Ability to learn things quickly and capable of working in a fast-paced and team-driven environment.{" "}
+        Committed and goal-oriented computer science graduate looking to pursue a career in the software engineering domain. Possess  knowledge in C++, Web Technology(HTML, CSS, Javascript, Reactjs),MySql. Ability to learn things quickly and capable of working in a fast-paced and team-driven environment.{" "}
         </p>
-        <span className="white-text">
-          <a href="">Portfolio</a>
-        </span>
+        <h1 className="ski"> Skills </h1>
+        <div className="ski">
         <ul className="tech-stack">
-          <li>Machine Learning Developer</li>
-          <li>Ui/Ux Designer</li>
-          <li>Web Developer</li>
+          <li>JavaScript</li>
+          <li>Reactjs</li>
+          <li>MySql</li>
+          <li>DBMS</li>
+          <li>OS</li>
+          <li>Data Structure</li>
+          <li>Git & Github</li>
+          
+          
         </ul>
-        <a className="about-see" href="https://drive.google.com/file/d/1DI5M9t-OzU1gu7FBDBEGvxOnBvVhC6xe/view?usp=sharing" target='_blank'>see more {"->"} </a>
+        </div>
       </div>
       <div className="about-right">
         <img src={iconImage} alt="" />

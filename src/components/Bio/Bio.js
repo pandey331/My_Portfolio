@@ -22,8 +22,8 @@ export const Bio = () => {
             effects="float"
             className="custom-theme"
           >
-            {/*             <BioDetails />
-             */}{" "}
+                       <BioDetails />
+             {" "}
           </ReactTooltip>
           <div className="line"></div>
         </div>

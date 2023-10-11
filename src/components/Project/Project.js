@@ -19,8 +19,7 @@ function Project({project_type , project_name, project_des, project_img, github,
         <img className="project-line" src={Line} alt="abajo" />
       </div>
       <div className="project-details">
-        {console.log('dataaaaa', project_img)}
-        <img src={project_img} alt="Project React Simple Portfolio" />
+       
         <div className="details-left">
           <div className="details-stack">
             <span className="white-text">Tech Stack</span>
@@ -28,9 +27,6 @@ function Project({project_type , project_name, project_des, project_img, github,
               {tech_stack.map((data,i)=> <li key={`${data}${i}`}>{data + ","}</li>)}
             </ul>
           </div>
-          <p className="gray-text">
-            Find the source on <a href={github} className="white-text" >Github</a> or <a href={web} className="white-text">Web</a>{" "}
-          </p>
         </div>
       </div>
     </section>

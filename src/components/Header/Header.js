@@ -6,7 +6,7 @@ export default function Header() {
       <header>
         <h1  className="header-title"> Hello, folks.</h1>
         <div className="header-title-box">
-          ⚛ Machine Learning and Web Developer based in India!
+          ⚛  Web Developer based in India!
         </div>
       </header>
     </section>
